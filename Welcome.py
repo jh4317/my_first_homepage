@@ -1,4 +1,5 @@
 import streamlit as st
+import os
 font_dirs = [os.getcwd() + '/customFonts']
 font_files = fm.findSystemFonts(fontpaths=font_dirs)
 
